@@ -9,9 +9,26 @@
 </head>
 <body>
     <header>
-        <button>Add a book</button>
+        <button id="addBook">Add a book</button>
     </header>
     <div class="main-container">
     </div>
+
+    <form method="post">
+        <div class="add-book-form-container">
+            <label for="book_name">Book Name</label>
+            <input type="text" id="book_name" name="book_name" required>
+            <label for="book_author">Book Author</label>
+            <input type="text" id="book_author" name="book_author" required>
+            <label for="book_page">Number of page</label>
+            <input type="number" id="book_page" name="book_page" required>
+            <label for="already_read">Read</label>
+            <input type="checkbox" id="already_read" name="already_read" required>
+            <div>
+                <button type="button" id="cancel-button">Cancel</button>
+                <button type="button" id="submit-button">Create new book</button>
+            </div>
+        </div>
+    </form>
 </body>
 </html>
