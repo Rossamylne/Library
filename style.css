@@ -61,6 +61,11 @@ header > button:hover {
     padding: 10px 0px;
     width: 50%;
     border-radius: 5px;
+    transition: 0.2s ease-out;
+}
+.read-button:hover {
+    cursor: pointer;
+    filter: brightness(105%);
 }
 
 
@@ -86,6 +91,8 @@ header > button:hover {
     background-color: #fff0e4;
     width: 100%;
     border-radius: 5px;
+    font-size: 1em;
+    padding: 10px 5px;
 }
 .add-book-form-container > div >button {
     border: none;
