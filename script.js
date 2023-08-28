@@ -1,13 +1,13 @@
 var myLibrary = [];
 const mainContainer = document.querySelector(".main-container");
 
-
-function Book(name, author, page, read) {
-    this.title = name;
-    this.author = author;
-    this.page = page;
-    this.read = read;
-    return this;
+class Book {
+    constructor(name, author, page, read) {
+        this.title = name;
+        this.author = author;
+        this.page = page;
+        this.read = read;
+    }
 }
 
 
